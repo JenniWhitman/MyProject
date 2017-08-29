@@ -10,6 +10,8 @@ Property CoffeemakerID As %Integer [ Calculated, SqlComputeCode = {Set {*} = {ID
 
 Property Name As %String;
 
+// The Brand Property should be a string
+
 Property Brand As %String;
 
 Property Color As %String;
